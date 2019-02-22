@@ -1,0 +1,137 @@
+body{
+    color: white;
+    background: grey;
+    font-size: 100%;
+    margin: 2%;
+    font-family: 'Sanchez', serif;
+}
+
+footer{
+	min-height: 5vh;
+}
+
+.home{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+  
+  .bg-image{
+    background-image: url(../images/square_pokeball.png);
+    background-repeat: no-repeat;
+    font-family: 'Sanchez', serif;
+  }
+
+.fa-gamepad {
+    color: black;
+    font-size: 40px;
+}
+
+h1{
+    font-size: 200%;
+}
+
+h2{
+    font-size: 150%;
+}
+
+.metagross{
+    font-size: 145%;
+}
+.mega_metagross{
+    font-size: 115%;
+}
+
+h3{
+    font-size: 66%;
+}
+
+nav a{
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li{
+    display: inline-block;
+    width: 15%;
+    background: white;
+    padding: 3%;
+    min-height: 20px;
+    line-height: 20px;
+    border-width: 2px;
+    text-align: center;
+    font-size: 77%;
+    background-image: -webkit-linear-gradient(top left, black, grey);
+    background-image: -o-linear-gradient(top left, black, grey);
+    background-image: linear-gradient(to bottom right, black, grey);
+}
+
+a.current{
+    background: black;
+    color: rgb(9, 255, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 1px solid yellow
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ a.skip{
+    position: relative;
+    left: -1000px;
+    color: white;
+}
+
+a.skip:focus{
+    position: static;
+    width: auto;
+    height: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 40%;
+  }
+  
+table, th, td {
+border: 3px solid black;
+vertical-align: middle;
+}
+
+th, td{
+    height: 20px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    padding: 2%;
+    margin: 3%;
+}
+
+.icon {
+    width: 4.5em;
+    height: 2em;
+    align-self: auto;
+}
+.first{
+    height: 40%;
+    width: 40%;
+}
+
+.chain{
+    height: 100%;
+    width: 100%;
+    align-content: space-between;
+    padding-top: 22%;
+    margin-top: 35%;
+    padding-bottom: 8%;
+}
