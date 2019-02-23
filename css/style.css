@@ -17,12 +17,6 @@ footer{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 }
-  
-  .bg-image{
-    background-image: url(../images/square_pokeball.png);
-    background-repeat: no-repeat;
-    font-family: 'Sanchez', serif;
-  }
 
 .fa-gamepad {
     color: black;
@@ -48,39 +42,11 @@ h3{
     font-size: 66%;
 }
 
-nav a{
-    color: white;
-}
-
-nav ul{
-    display: flex;
-    justify-content: flex-end;
-}
-
-nav ul li{
-    display: inline-block;
-    width: 15%;
-    background: white;
-    padding: 3%;
-    min-height: 20px;
-    line-height: 20px;
-    border-width: 2px;
-    text-align: center;
-    font-size: 77%;
-    background-image: -webkit-linear-gradient(top left, black, grey);
-    background-image: -o-linear-gradient(top left, black, grey);
-    background-image: linear-gradient(to bottom right, black, grey);
-}
-
 a.current{
     background: black;
     color: rgb(9, 255, 0);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border: 1px solid yellow
-}
-
-p{
-    font-family: 'Times New Roman', Times, serif;
 }
 
  a.skip{
@@ -115,26 +81,302 @@ th, td{
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    /* border: 2px solid black;
-    padding: 2%;
-    margin: 3%; */
 }
 
 .icon {
-    width: 4.5em;
+    width: 5em;
     height: 2em;
     align-self: auto;
 }
-.first{
-    height: 40%;
-    width: 40%;
+
+@media only screen and (min-width: 769px) {
+    nav a{
+        color: white;
+    }
+    
+    nav ul{
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        width: 15%;
+        background: white;
+        padding: 3%;
+        min-height: 20px;
+        line-height: 20px;
+        border-width: 2px;
+        text-align: center;
+        font-size: 150%;
+        background-image: -webkit-linear-gradient(top left, black, grey);
+        background-image: -o-linear-gradient(top left, black, grey);
+        background-image: linear-gradient(to bottom right, black, grey);
+    }
+
+    h1{
+        font-size: 450%;
+    }
+
+    .first{
+        height: 30%;
+        width: 30%;
+    }
+    
+    .shiny{
+        width: 300px;
+        margin-right: 20%;
+    }
+
+    .footer{
+        padding-top: 2%;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .home{
+        padding-top: 2%;
+        height: 50px;
+        font-size: 20px;
+        color: black;
+    }
+
+    .dex{
+        padding-right: 11%;
+    }
+
+    .dex2{
+        margin-right: 52%;
+    }
+
+    .loc{
+        margin-left: 2.5%;
+    }
+
+    .loc2{
+        align-self: flex-end;
+        margin-top: 30%;
+    }
+
+    .bg-image{
+        background-image: url(../images/square_pokeball.png);
+        background-repeat: no-repeat;
+        font-family: 'Sanchez', serif;
+        background-size: 100% 100%;
+    }
+
+    p{
+        margin-top: 5%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 400%;
+    }
+
+    .chain{
+        height: 100%;
+        width: 100%;
+        align-content: space-between;
+        padding-top: 12%;
+        padding-bottom: 8%;
+    }
 }
 
-.chain{
-    height: 100%;
-    width: 100%;
-    align-content: space-between;
-    padding-top: 22%;
-    margin-top: 35%;
-    padding-bottom: 8%;
+@media only screen and (max-width: 768px) {
+    nav a{
+        color: white;
+    }
+    
+    nav ul{
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        width: 17%;
+        background: white;
+        padding: 2%;
+        min-height: 20px;
+        line-height: 20px;
+        border-width: 2px;
+        text-align: center;
+        font-size: 120%;
+        background-image: -webkit-linear-gradient(top left, black, grey);
+        background-image: -o-linear-gradient(top left, black, grey);
+        background-image: linear-gradient(to bottom right, black, grey);
+    }
+
+    .mm{
+        font-size: 234%;
+    }
+
+    h1{
+        font-size: 250%;
+    }
+
+    .first{
+        height: 40%;
+        width: 40%;
+    }
+    
+    .shiny{
+        width: 200px;
+    }
+
+    .bg-image{
+        background-image: url(../images/square_pokeball.png);
+        background-repeat: no-repeat;
+        font-family: 'Sanchez', serif;
+        background-size: 200% 121%;
+    }
+
+    p{
+        margin-top: 5%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 200%;
+    }
+
+    .chain{
+        height: 100%;
+        width: 100%;
+        align-content: space-between;
+        padding-top: 12%;
+        padding-bottom: 8%;
+    }
+
+    .footer{
+        padding-top: 2%;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .home{
+        padding-top: 23%;
+        height: 50px;
+        font-size: 18px;
+        color: black;
+    }
+
+    .dex{
+        padding-right: 11%;
+    }
+
+    .dex2{
+        margin-right: 52%;
+    }
+
+    .loc{
+        margin-left: 2.5%;
+    }
+
+    .loc2{
+        align-self: flex-end;
+        margin-top: 30%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+    nav a{
+        color: white;
+    }
+    
+    nav ul{
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        width: 17%;
+        background: white;
+        padding: 2%;
+        min-height: 20px;
+        line-height: 20px;
+        border-width: 2px;
+        text-align: center;
+        font-size: 80%;
+        background-image: -webkit-linear-gradient(top left, black, grey);
+        background-image: -o-linear-gradient(top left, black, grey);
+        background-image: linear-gradient(to bottom right, black, grey);
+    }
+
+    h1{
+        font-size: 135%;
+    }
+
+    .mm{
+        font-size: 114%;
+    }
+
+    p{
+        margin-top: 5%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 120%;
+    }
+
+    .first{
+        height: 40%;
+        width: 40%;
+    }
+    
+    .shiny{
+        width: 100px;
+    }
+
+    .bg-image{
+        background-image: url(../images/square_pokeball.png);
+        background-repeat: no-repeat;
+        font-family: 'Sanchez', serif;
+        background-size: 200% 100%;
+    }
+
+    .chain{
+        height: 100%;
+        width: 100%;
+        align-content: space-between;
+        padding-top: 20%;
+        padding-bottom: 3%;
+    }
+
+    .footer{
+        padding-top: 2%;
+        height: 50px;
+        font-size: 10px;
+    }
+
+    .home{
+        padding-top: 50%;
+        height: 50px;
+        font-size: 9.5px;
+        color: black;
+    }
+
+    .fa-gamepad {
+        color: black;
+        font-size: 20px;
+    }
+
+    .icon{
+    width: 3.5em;
+    height: 1.5em;
+    align-self: auto;
+    }
+
+    /* .dex{
+        margin-left: 40%;
+    } */
+
+    .dex2{
+        margin-right: 52%;
+        align-self: flex-start;
+    }
+
+    .loc{
+        margin-left: 13%;
+    }
+
+    .loc2{
+        align-self: flex-end;
+        margin-left: 50%;
+    }
 }
